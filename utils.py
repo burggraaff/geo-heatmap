@@ -74,7 +74,8 @@ def getColormapAsGradient(name: str, n_steps: int=20) -> dict[int, str]:
     Names starting with cmc. are retrieved from cmcrameri (optional import).
 
     Arguments:
-        name {str} -- Colormap name
+        name {str} -- Colormap name.
+        n_steps {int} -- Number of quantization steps.
 
     Returns:
         dict -- Keys are a range from 0 to 1, values are hex strings.
