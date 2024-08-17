@@ -129,8 +129,8 @@ optional arguments:
   -mz MAX_ZOOM, --max-zoom MAX_ZOOM
                         The maximum zoom of the heatmap. (default: 4)
   -c COLOR_MAP, --color-map COLOR_MAP
-						The color map to use, from:
-						branca (<name>), matplotlib (mpl.<name>), cmcrameri (cmc.<name>)
+                        The color map to use, from:
+                        branca (<name>), matplotlib (mpl.<name>), cmcrameri (cmc.<name>)
 ```
 
 ### 6. Review the Results
