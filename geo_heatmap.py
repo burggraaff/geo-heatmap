@@ -311,8 +311,8 @@ if __name__ == "__main__":
     parser.add_argument("-mz", "--max-zoom", dest="max_zoom", type=int, required=False,
                         help="The maximum zoom of the heatmap. (default: %(default)s)", default=4)
     parser.add_argument("-c", "--color-map", dest="color_map", type=str, required=False,
-                        help="The color map to use.\n" \
-                        "(from branca (default), matplotlib ('mpl.<name>'), cmcrameri ('cmc.<name>').", default=None)
+                        help="The color map to use, from:\n" \
+                        "branca (<name>), matplotlib (mpl.<name>), cmcrameri (cmc.<name>).", default=None)
 
     args = parser.parse_args()
     data_file = args.files
